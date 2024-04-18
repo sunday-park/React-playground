@@ -11,17 +11,17 @@ function Home() {
         getMovies();
     }, []);
 
-    const getMovies = async () => {
+    const getMovies = async() => {
         try {
         const res = await (
             await axios.get(
             "https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year"
             )
         ).data;
-        setMovies(res.data.movies);
-        setLoading(false);
+            setMovies(res.data.movies);
+            setLoading(false);
         } catch (err) {
-        console.error(err);
+            console.error(err);
         }
     };
 
@@ -37,6 +37,7 @@ function Home() {
                 return (
                 <Movie
                     key={movie.id}
+                    id={movie.id}
                     coverImg={movie.medium_cover_image}
                     title={movie.title}
                     genres={movie.genres}
