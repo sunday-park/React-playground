@@ -40,6 +40,7 @@ function Home() {
                     id={movie.id}
                     coverImg={movie.medium_cover_image}
                     title={movie.title}
+                    year={movie.year}
                     genres={movie.genres}
                     summary={movie.summary}
                 />
