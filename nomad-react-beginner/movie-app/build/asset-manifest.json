@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/React-playground/nomad-react-beginner/movie-app/static/js/main.af21cb35.js",
-    "index.html": "/React-playground/nomad-react-beginner/movie-app/index.html",
-    "main.af21cb35.js.map": "/React-playground/nomad-react-beginner/movie-app/static/js/main.af21cb35.js.map"
+    "main.js": "/React-playground/static/js/main.fe81b5ad.js",
+    "index.html": "/React-playground/index.html",
+    "main.fe81b5ad.js.map": "/React-playground/static/js/main.fe81b5ad.js.map"
   },
   "entrypoints": [
-    "static/js/main.af21cb35.js"
+    "static/js/main.fe81b5ad.js"
   ]
 }
