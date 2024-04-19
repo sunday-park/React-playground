@@ -6,7 +6,7 @@ import Detail from './routes/Detail';
 
 function App() {
     return (
-        <Routes path="/nomad-react-beginner/movie-app">
+        <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/movie/:id" element={<Detail />}/>
         </Routes>
