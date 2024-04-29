@@ -12,4 +12,4 @@
 - [0] useScroll
 - [0] useFullscreen
 - [0] useNotification
-- [] useAxios
+- [0] useAxios
